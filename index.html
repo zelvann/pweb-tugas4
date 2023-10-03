@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validasi Data</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h2>Validasi data dengan JS</h2>
+  <div class="container">
+    <form action="#" onsubmit="return check()">
+      <div class="row">
+        <div class="f-label">
+          <label>Nama:</label>
+        </div>
+        <div class="f-input">
+          <input type="text" id="nama" name = "name" placeholder="Masukkan Nama....">
+          <span id="nameError" class="error"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="f-label">
+          <label>NRP:</label>
+        </div>
+        <div class="f-input">
+          <input type="text" id="NRP" name="NRP" placeholder="Masukkan NRP...">
+          <span id="nrpError" class="error"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="f-label">
+          <label>Mata Kuliah:</label>
+        </div>
+        <div class="f-input">
+          <input type="text" id="matkul" placeholder="Masukkan Mata Kuliah...">
+          <span id="mkError" class="error"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="f-label">
+          <label>Nama Dosen:</label>
+        </div>
+        <div class="f-input">
+          <input type="text" id="dosen" placeholder="Masukkan Nama Dosen...">
+          <span id="dError" class="error"></span>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
